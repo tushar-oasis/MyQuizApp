@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:context=".ui.QuizzActivity"
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:fillViewport="true"
+             android:focusableInTouchMode="true"
+>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
+    >
+
+        <TextView android:id="@+id/questionNumberTextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_centerHorizontal="true"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginBottom="16dp"
+                  android:layout_marginTop="17dp"
+                  android:text="@string/question"
+                  android:textSize="24sp"/>
+
+        <TextView android:id="@+id/questionTextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentStart="true"
+                  android:layout_marginTop="29dp"
+                  android:text="In which decade was the American Institute of Electrical Engineers (AIEE) founded?" android:textSize="22sp"/>
+
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="24dp"
+                  android:hint="Enter your answer here"
+                  android:id="@+id/answerEditText"
+
+
+        />
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:layout_alignParentBottom="true"
+                      android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+                      android:orientation="horizontal"
+
+        >
+
+            <Button android:id="@+id/submitButton"
+                    style="@style/ButtonCodeFont"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="8dp"
+                    android:text="Submit"
+                    android:layout_gravity="bottom"
+            />
+
+            <Button android:id="@+id/nextButton"
+                    style="@style/ButtonCodeFont"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:layout_gravity="bottom"
+                    android:text="Next"
+
+
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

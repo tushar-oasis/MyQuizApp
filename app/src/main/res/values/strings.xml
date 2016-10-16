@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Quiz</string>
+    <string name="please_enter_your_name">Enter your name to begin</string>
+    <string name="question">
+        <u>
+            <b>
+                <i>Question 1</i>
+            </b>
+        </u>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
